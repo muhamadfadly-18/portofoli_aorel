@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio - Pawan Kumavat</title>
+
+  <!-- bootstrap css cdn link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+  <!-- custom css file -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- bootstrap icon cdn link  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+  <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- jquery cdn link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">Portfolio</a>
+      <button class="nav-menu d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-menu-button-fill"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#riwayat">Riwayat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Pengalaman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Sertifikat</a>
+          </li>
+   
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Projek</a>
+          </li>
+        </ul>
+      </div>
+      
+      <a href="#footer" class="no-underline c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</a>
+
+
+    </div>
+  </nav>
+  <!-- navbar ends here -->
+
+  <!-- home section starts  -->
+  <section class="home pt-5 pb-5" id="home">
+    <div class="row justify-content-evenly align-middle">
+      <!-- here data-aos is used for adding aos animation  -->
+      <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+        <h2 style="color: #3f396d">
+          Hallo Saya <br /><span class="c-orange">Aorelria</span>
+        </h2>
+        <p class="text-muted">
+          Saya merupakan lulusan SMK Wikrama Bogor dengan jurusan Manajemen Perkantoran dan Layanan Bisnis. Saat ini
+          saya sebagai Office Administrative yang bertanggung jawab dalam mendukung kegiatan administrasi dan
+          operasional kantor. Saya memiliki pengetahuan dasar seperti pengelolaan dokumen, pencatatan data, penjadwalan,
+          menangani panggilan telepon, serta membantu kebutuhan administratif lainnya. Saya terbiasa menggunakan
+          berbagai perangkat lunak pendukung kerja seperti Microsoft Office (Word, Excel, PowerPoint), Google Workspace
+          (Docs, Sheets, Calendar), dan aplikasi administrasi lainnya untuk menunjang efisiensi kerja.
+
+
+        </p>
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          Tentang Saya
+        </button>
+        <!-- <a href="" class="link ms-4 d-none">See My Work</a> -->
+      </div>
+      <div class="col-10 col-md-4 d-none d-md-block">
+        <img src="images/Profile.png" class="img-fluid" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- home section ends here -->
+
+  <!-- expertise section starts -->
+  <section class="expertise mt-5" id="riwayat">
+    <div class="heading text-center">
+      <h3 class="fw-bold text-primary mb-4">Pendidikan</h3>
+    </div>
+    <div class="row justify-content-center g-4 mt-4">
+
+      <div class="col-10 col-md-4" data-aos="fade-up">
+        <div class="riwayat-card shadow-lg p-4 rounded-4 bg-white border-start border-4 border-primary">
+          <div class="content mt-2">
+            <h4 class="fw-semibold"><i class="bi bi-book me-2"></i>SDN Kertamaya</h4>
+            <p class="text-muted mb-0">2012 - 2018</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="riwayat-card shadow-lg p-4 rounded-4 bg-white border-start border-4 border-success">
+          <div class="content mt-2">
+            <h4 class="fw-semibold"><i class="bi bi-book me-2"></i>SMP Negeri 10 Kota Bogor</h4>
+            <p class="text-muted mb-0">2018 - 2022</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="riwayat-card shadow-lg p-4 rounded-4 bg-white border-start border-4 border-warning">
+          <div class="content mt-2">
+            <h4 class="fw-semibold"><i class="bi bi-book me-2"></i>SMK Wikrama Bogor</h4>
+            <p class="text-muted mb-0">2022 - 2025</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- expertise section ends here -->
+
+  <!-- skill section starts -->
+  <section class="experience mt-5 py-5" id="about">
+    <div class="text-center mb-5">
+      <h3 class="fw-bold text-primary">Pengalaman</h3>
+    </div>
+    <div class="row justify-content-center g-4">
+
+      <div class="col-10 col-md-5" data-aos="fade-up">
+        <div class="experience-card p-4 shadow-sm rounded-4 bg-white border-start border-4 border-primary">
+          <h5 class="fw-bold mb-1"><i class="bi bi-briefcase me-2"></i>Magang di PT. Contoh Teknologi</h5>
+          <p class="text-muted mb-1">Full Stack Web Developer</p>
+          <small class="text-secondary">Jan 2024 - Mar 2024</small>
+          <p class="mt-2 mb-0">Membuat dan mengelola sistem manajemen karyawan menggunakan Laravel & Vue.js.</p>
+        </div>
+      </div>
+
+      <div class="col-10 col-md-5" data-aos="fade-up" data-aos-delay="100">
+        <div class="experience-card p-4 shadow-sm rounded-4 bg-white border-start border-4 border-success">
+          <h5 class="fw-bold mb-1"><i class="bi bi-briefcase me-2"></i>Freelance Web Designer</h5>
+          <p class="text-muted mb-1">UI/UX Designer</p>
+          <small class="text-secondary">Okt 2023 - Des 2023</small>
+          <p class="mt-2 mb-0">Mendesain tampilan web portofolio untuk klien menggunakan Figma & Bootstrap.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- skill section end here -->
+
+  <!-- portfolio section starts here -->
+  <section class="portfolio" id="portfolio">
+    <div class="heading text-center pt-5">
+      <h3>Sertifikat</h3>
+    </div>
+
+    <div id="myBtnContainer" class="text-center mt-4">
+      <button class="filter-item" data-filter="all">All</button>
+    </div>
+
+    <div class="portfolio-body">
+      <div class="row justify-content-evenly px-4">
+
+        <!-- SERTIFIKAT BASIC CYBER SECURITY -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT BASIC CYBER SECURITY.png" target="_blank">
+              <img src="images/SERTIFIKAT BASIC CYBER SECURITY.png" class="card-img-top"
+                alt="Sertifikat Basic Cyber Security" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Basic Cyber Security</h4>
+              <span class="badge bg-secondary mb-2">Cyber Security</span><br />
+              <a href="images/SERTIFIKAT BASIC CYBER SECURITY.png" target="_blank" class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT EVENT ORGANIZER -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT EVENT ORGANIZER.jpg" target="_blank">
+              <img src="images/SERTIFIKAT EVENT ORGANIZER.jpg" class="card-img-top" alt="Sertifikat Event Organizer" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Event Organizer</h4>
+              <span class="badge bg-secondary mb-2">Event Management</span><br />
+              <a href="images/SERTIFIKAT EVENT ORGANIZER.jpg" target="_blank" class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT INOVASI BISNIS -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT INOVASI BISNIS UNIVERSITAS DJUANDA.jpg" target="_blank">
+              <img src="images/SERTIFIKAT INOVASI BISNIS UNIVERSITAS DJUANDA.jpg" class="card-img-top"
+                alt="Sertifikat Inovasi Bisnis" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Inovasi Bisnis</h4>
+              <span class="badge bg-secondary mb-2">Inovasi Bisnis</span><br />
+              <a href="images/SERTIFIKAT INOVASI BISNIS UNIVERSITAS DJUANDA.jpg" target="_blank" class="link">Lihat
+                Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT KUNJUNGAN INDUSTRI -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/Sertifikat Kunjungan Industri PT POS INDONESIA.jpg" target="_blank">
+              <img src="images/Sertifikat Kunjungan Industri PT POS INDONESIA.jpg" class="card-img-top"
+                alt="Sertifikat Kunjungan Industri" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Kunjungan Industri</h4>
+              <span class="badge bg-secondary mb-2">Industri</span><br />
+              <a href="images/Sertifikat Kunjungan Industri PT POS INDONESIA.jpg" target="_blank" class="link">Lihat
+                Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT LDKS -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT LDKS.jpg" target="_blank">
+              <img src="images/SERTIFIKAT LDKS.jpg" class="card-img-top" alt="Sertifikat LDKS" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">LDKS</h4>
+              <span class="badge bg-secondary mb-2">Leadership</span><br />
+              <a href="images/SERTIFIKAT LDKS.jpg" target="_blank" class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT LOOKUP AND INDEX MATCH -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT LOOKUP AND INDEX MATCH_page-0001.jpg" target="_blank">
+              <img src="images/SERTIFIKAT LOOKUP AND INDEX MATCH_page-0001.jpg" class="card-img-top"
+                alt="Sertifikat Lookup and Index Match" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Lookup and Index Match</h4>
+              <span class="badge bg-secondary mb-2">Excel</span><br />
+              <a href="images/SERTIFIKAT LOOKUP AND INDEX MATCH_page-0001.jpg" target="_blank" class="link">Lihat
+                Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT MUSIK TRADISIONAL -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT MUSIK TRADISIONAL TK. KOTA BOGOR_page-0001.jpg" target="_blank">
+              <img src="images/SERTIFIKAT MUSIK TRADISIONAL TK. KOTA BOGOR_page-0001.jpg" class="card-img-top"
+                alt="Sertifikat Musik Tradisional" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Musik Tradisional</h4>
+              <span class="badge bg-secondary mb-2">Musik</span><br />
+              <a href="images/SERTIFIKAT MUSIK TRADISIONAL TK. KOTA BOGOR_page-0001.jpg" target="_blank"
+                class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT MYSKILL SHORT CLASS DATA FORMATTING AND CLEANSING -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT MYSKILL SHORT CLASS DATA FORMATTING AND CLEANSING.jpg" target="_blank">
+              <img src="images/SERTIFIKAT MYSKILL SHORT CLASS DATA FORMATTING AND CLEANSING.jpg" class="card-img-top"
+                alt="Sertifikat Data Formatting and Cleansing" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Data Formatting & Cleansing</h4>
+              <span class="badge bg-secondary mb-2">Data Science</span><br />
+              <a href="images/SERTIFIKAT MYSKILL SHORT CLASS DATA FORMATTING AND CLEANSING.jpg" target="_blank"
+                class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT MYSKILL SHORT CLASS DATA VISUALIZATION -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT MYSKILL SHORT CLASS DATA VISUALIZATION.jpg" target="_blank">
+              <img src="images/SERTIFIKAT MYSKILL SHORT CLASS DATA VISUALIZATION.jpg" class="card-img-top"
+                alt="Sertifikat Data Visualization" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Data Visualization</h4>
+              <span class="badge bg-secondary mb-2">Data Science</span><br />
+              <a href="images/SERTIFIKAT MYSKILL SHORT CLASS DATA VISUALIZATION.jpg" target="_blank" class="link">Lihat
+                Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT MYSKILL SHORT CLASS VLOOKUP AND HLOOKUP -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT MYSKILL SHORT CLASS VLOOKUP AND HLOOKUP.jpg" target="_blank">
+              <img src="images/SERTIFIKAT MYSKILL SHORT CLASS VLOOKUP AND HLOOKUP.jpg" class="card-img-top"
+                alt="Sertifikat VLOOKUP and HLOOKUP" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">VLOOKUP and HLOOKUP</h4>
+              <span class="badge bg-secondary mb-2">Excel</span><br />
+              <a href="images/SERTIFIKAT MYSKILL SHORT CLASS VLOOKUP AND HLOOKUP.jpg" target="_blank" class="link">Lihat
+                Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT PENGURUS KOOR DIVISI 2 -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT PENGURUS KOOR DIVISI 2.jpg" target="_blank">
+              <img src="images/SERTIFIKAT PENGURUS KOOR DIVISI 2.jpg" class="card-img-top"
+                alt="Sertifikat Pengurus Koor Divisi 2" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Pengurus Koor Divisi 2</h4>
+              <span class="badge bg-secondary mb-2">Kepengurusan</span><br />
+              <a href="images/SERTIFIKAT PENGURUS KOOR DIVISI 2.jpg" target="_blank" class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+        <!-- SERTIFIKAT PKL PT COBRA DENTAL INDONESIA -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT PKL PT COBRA DENTAL INDONESIA.jpg" target="_blank">
+              <img src="images/SERTIFIKAT PKL PT COBRA DENTAL INDONESIA.jpg" class="card-img-top"
+                alt="Sertifikat PKL PT Cobra Dental Indonesia" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">PKL PT Cobra Dental Indonesia</h4>
+              <span class="badge bg-secondary mb-2">Magang</span><br />
+              <a href="images/SERTIFIKAT PKL PT COBRA DENTAL INDONESIA.jpg" target="_blank" class="link">Lihat
+                Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT RATATYPE GOLD -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT RATATYPE GOLD.webp" target="_blank">
+              <img src="images/SERTIFIKAT RATATYPE GOLD.webp" class="card-img-top" alt="Sertifikat Ratatype Gold" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Ratatype Gold</h4>
+              <span class="badge bg-secondary mb-2">Typing</span><br />
+              <a href="images/SERTIFIKAT RATATYPE GOLD.webp" target="_blank" class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT UKBI -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT UKBI.jpg" target="_blank">
+              <img src="images/SERTIFIKAT UKBI.jpg" class="card-img-top" alt="Sertifikat UKBI" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">UKBI</h4>
+              <span class="badge bg-secondary mb-2">Bahasa Indonesia</span><br />
+              <a href="images/SERTIFIKAT UKBI.jpg" target="_blank" class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT WORKSHEET AND WORKBOOK IN MICROSOFT EXCEL -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT WORKSHEET AND WORKBOOK IN MICROSOFT EXCEL_page-0001.jpg" target="_blank">
+              <img src="images/SERTIFIKAT WORKSHEET AND WORKBOOK IN MICROSOFT EXCEL_page-0001.jpg" class="card-img-top"
+                alt="Sertifikat Worksheet and Workbook in Microsoft Excel" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Worksheet and Workbook in Microsoft Excel</h4>
+              <span class="badge bg-secondary mb-2">Excel</span><br />
+              <a href="images/SERTIFIKAT WORKSHEET AND WORKBOOK IN MICROSOFT EXCEL_page-0001.jpg" target="_blank"
+                class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERTIFIKAT WORKSHOP TARI BERSAMA SANGGAR TARI EDAS -->
+        <div class="post col-md-4 pelatihan all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <a href="images/SERTIFIKAT WORKSHOP TARI BERSAMA SANGGAR TARI EDAS_page-0001.jpg" target="_blank">
+              <img src="images/SERTIFIKAT WORKSHOP TARI BERSAMA SANGGAR TARI EDAS_page-0001.jpg" class="card-img-top"
+                alt="Sertifikat Workshop Tari Bersama Sanggar Tari Edas" />
+            </a>
+            <div class="card-body text-center">
+              <h4 class="card-title">Workshop Tari Bersama Sanggar Tari Edas</h4>
+              <span class="badge bg-secondary mb-2">Tari</span><br />
+              <a href="images/SERTIFIKAT WORKSHOP TARI BERSAMA SANGGAR TARI EDAS_page-0001.jpg" target="_blank"
+                class="link">Lihat Sertifikat</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="blog mt-5 pb-5" id="blog">
+    <div class="heading text-center pt-5">
+      <h3>Projek</h3>
+    </div>
+    <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+      <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+        <div class="card">
+          <img src="images/poster.png" class="card-img-top rounded-4" alt="..." />
+          <div class="card-body px-4">
+            <small>SMK Wikrama Bogor</small><span class="ms-3">Apr 19,2025</span>
+            <h4 class="card-title">
+              <a href="">Project Work</a>
+            </h4>
+            <p class="text-muted">
+              Pada proyek akhir kelas 12, saya berperan sebagai Program Manager dalam kegiatan “Workshop Editing Video
+              Menggunakan Aplikasi Capcut” bertema “From Raw to Wow.” Tugas saya meliputi penyusunan rundown acara,
+              pembuatan materi presentasi selama acara, serta laporan pertanggungjawaban setelah kegiatan.
+            </p>
+            <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Lihat</a>
+          </div>
+        </div>
+      </div>
+      <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+        <div class="card">
+          <img src="images/poster-1.png" class="card-img-top rounded-4 mx-auto d-block" alt="..."
+            style="width: 200px; height: auto;" />
+
+
+          <div class="card-body px-4">
+            <small>SMK Wikrama Bogor</small>
+            <span class="ms-3">Mar 2025</span>
+            <h4 class="card-title">
+              <a href="">Project PKK (Produk Kreatif Kewirausahaan)</a>
+            </h4>
+            <p class="text-muted">
+              Dalam proyek PKK, kami mendirikan perusahaan fiktif bernama Dehotmelt dengan produk andalan WoAiNi. Saya
+              bertugas sebagai Marketing Officer yang menangani strategi pemasaran, desain visual, konten media sosial,
+              serta strategi bundling harga untuk menarik minat konsumen.
+            </p>
+            <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Lihat</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+        <div class="card">
+          <img src="images/poster-3.png" class="card-img-top rounded-4" alt="..." />
+          <div class="card-body px-4">
+            <small>SMK WIkrama Bogor</small><span class="ms-3"></span>
+            <h4 class="card-title">
+              <a href="">Project Appsheet: Agenda Kegiatan SMK Wikrama Bogor</a>
+            </h4>
+            <p class="text-muted">
+              Dalam proyek ini, saya mengembangkan aplikasi berbasis AppSheet untuk mencatat dan memantau agenda kegiatan SMK Wikrama, baik internal maupun eksternal. Data kegiatan otomatis tercatat di Google Spreadsheet, memudahkan pengelolaan oleh pihak sekolah. Aplikasi ini memuat detail penting seperti jenis kegiatan, tanggal, peserta, dan kebutuhan acara, sehingga manajemen kegiatan menjadi lebih efektif dan terorganisir.
+            </p>
+            <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Lihat</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- here we will make modals if Read more link is clicked the modal will popup -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i
+                class="bi bi-x-circle-fill"></i></button>
+
+            <div class="modal-body px-4">
+              <div class="img">
+                <img src="images/poster.png" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <small>SMK Wikrama Bogor</small><span class="text-muted ms-2">Apr 19, 2025</span>
+                <h4 class="card-title mt-3">Project Work</h4>
+                
+                <p class="text-muted mt-3">Pada proyek akhir kelas 12, saya dan kelompok diberikan tugas untuk
+                  melaksanakan Project Work dengan memilih tema kegiatan workshop. Kelompok kami mengangkat kegiatan
+                  berjudul “Workshop Editing Video Menggunakan Aplikasi Capcut” dengan tema “From Raw to Wow: Seni
+                  Editing Video yang Memukau.”
+
+                  Dalam kegiatan tersebut, saya berperan sebagai Program Manager yang bertanggung jawab untuk memastikan
+                  kelancaran pelaksanaan kegiatan, memantau setiap proses, serta mengoordinasikan berbagai elemen agar
+                  tujuan kegiatan tercapai secara menyeluruh. Adapun tugas saya mencakup penyusunan rundown acara,
+                  pembuatan presentasi (PPT) untuk keperluan selama acara berlangsung, serta penyusunan presentasi untuk
+                  laporan pertanggungjawaban setelah kegiatan selesai dilaksanakan.</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i
+                class="bi bi-x-circle-fill"></i></button>
+
+            <div class="modal-body px-4">
+              <div class="img">
+                <img src="images/poster-1.png" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <small>SMk Wikrama bOgor</small><span class="text-muted ms-2 ms-md-0">Mar 2025</span>
+                <h4 class="card-title mt-3">Project PKK (Produk Kreatif Kewirausahaan)</h4>
+                
+                <p class="text-muted mt-3">
+                  Pada proyek PKK kali ini, kami membuat sebuah perusahaan fiktif dengan nama
+                  Dehotmelt.
+                  Makna dari kata “Hot” melambangkan kehangatan dan kenyamanan yang dirasakan pelanggan saat menikmati
+                  WoAiNi, produk kami yang identik dengan cita rasa pedas.
+                  Sementara itu, kata “Melt” menggambarkan tekstur lembut dan lelehnya keju dalam wonton, yang
+                  memberikan sensasi gurih dan berpadu sempurna dengan pedasnya sambal, menciptakan pengalaman kuliner
+                  yang berkesan.
+
+                  Saya bertanggung jawab di divisi Marketing Officer, dengan tugas merancang strategi pemasaran untuk
+                  produk yang kami kembangkan. Selain itu, saya juga membuat desain visual, mengelola pembuatan konten
+                  untuk media sosial, serta menyusun strategi bundling harga produk guna menarik minat konsumen.
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i
+                class="bi bi-x-circle-fill"></i></button>
+
+            <div class="modal-body px-4">
+              <div class="img">
+                <img src="images/poster-3.png" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <small>SMK wikarama Bogor</small><span class="text-muted ms-2 ms-md-0"></span>
+                <h4 class="card-title mt-3">Project Appsheet: Agenda Kegiatan SMK Wikrama Bogor</h4>
+                
+                <p class="text-muted mt-3">Dalam proyek ini, kami diarahkan untuk merancang sebuah ide inovatif guna mendukung kelancaran kegiatan di lingkungan sekolah. Saya memilih untuk mengembangkan sebuah aplikasi berbasis AppSheet yang berfungsi sebagai media pencatatan dan pemantauan agenda kegiatan SMK Wikrama, baik kegiatan internal maupun eksternal.
+
+                  Melalui aplikasi ini, setiap kegiatan yang diinput akan secara otomatis tercatat dalam Google Spreadsheet, sehingga memudahkan pihak sekolah dalam memantau dan mengelola agenda yang telah direncanakan.
+                  
+                  Aplikasi ini dibagi menjadi dua kategori kegiatan, yaitu:
+                  
+                  Kegiatan Internal
+                  Untuk kategori ini, saya mencantumkan informasi berikut:
+                  
+                  Jenis rapat
+                  
+                  Agenda kegiatan
+                  
+                  Penyelenggara
+                  
+                  Tanggal pelaksanaan
+                  
+                  Waktu pelaksanaan
+                  
+                  Peserta rapat
+                  
+                  Tempat pelaksanaan
+                  
+                  Keperluan atau perlengkapan yang harus disiapkan
+                  
+                  Kegiatan Eksternal
+                  Untuk kategori kegiatan di luar lingkungan sekolah, saya mencantumkan informasi sebagai berikut:
+                  
+                  Nama lembaga
+                  
+                  Jenis kegiatan
+                  
+                  Tanggal pelaksanaan
+                  
+                  Jumlah peserta
+                  
+                  Durasi kunjungan
+                  
+                  Materi kegiatan
+                  
+                  Nomor telepon yang dapat dihubungi
+                  
+                  Dengan adanya aplikasi ini, diharapkan manajemen kegiatan sekolah dapat berjalan lebih efektif, terorganisasi, dan terdokumentasi dengan baik.</p>
+
+
+                  <button style="color: blue;"><a href="https://www.appsheet.com/Account/Login?appName=KEGIATAN%20SMK%20WIKRAMA%20BOGOR&FullScope=True&provider=&returnUrl=https%3A%2F%2Fwww.appsheet.com%2Fstart%2F69afebca-b1ef-4b34-9276-91d302981787%3Fplatform%3Ddesktop#appName=KEGIATANSMKWIKRAMABOGOR-485893466&vss=H4sIAAAAAAAAA6WOvQ7CIBRG3-WbeQJW08EYXTQu4oDlkpC20BSqNoR399bfWR055Jz7ZZwdXbZJ1w3kIX9eK5ogkRV2U08KUmERfBpCqyAUNrp7wKqJiQavGReUo3gFEkXI_KUv_7wv4Az55KyjYY7NKkeeIn_PGoO3hCLQjUmfWrpvZqkUZjbUYySz5zG_jIhLX1177c06GG5a3UYqN5DZT49qAQAA&view=Eksternal"></a> KEGIATAN SMK WIKRAMA BOGOR</button>
+              </div>
+            </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- footer section starts  -->
+  <footer id="footer" class="text-center text-muted py-4">
+    <h3 class="text-white pt-4" data-aos="fade-up">Contact ME</h3>
+  
+    <!-- Informasi Kontak -->
+    <div class="mt-4" data-aos="fade-up">
+      <p class="mb-1 text-white">EMAIL : riaaorelria@gmail.com</p>
+      <p class="mb-1 text-white">
+        LINKEDIN :
+        <a href="https://www.linkedin.com/in/aorelria-ria-7243802a8/" target="_blank" class="text-decoration-none text-info">
+          aorelria-ria
+        </a>
+      </p>
+      <p class="mb-1 text-white">PHONE : +62 895-4038-71700</p>
+    </div>
+  
+    <!-- Tombol Sosial Media -->
+    <div class="social-links mt-4" data-aos="fade-up">
+      <button href="https://www.linkedin.com/in/aorelria-ria-7243802a8/" class="rounded-pill linkedin">
+        <i class="bi bi-linkedin"></i>
+      </button>
+    </div>
+  
+    <hr class="text-muted my-4" />
+    <p>Copyright 2022 Portfolio | All Rights Reserved.</p>
+  </footer>
+  
+  <!-- footer section ends here -->
+
+  <!-- bootstrap javascript cdn link  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS library javascript link  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    // initializing AOS library
+    AOS.init({
+      duration: 1000,
+      offset: 50,
+    });
+  </script>
+  <!-- custom js file linking -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
