@@ -142,3 +142,10 @@ mybutton.addEventListener("click",function(){
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
+
+function downloadCV() {
+  const link = document.createElement('a');
+  link.href = 'CV-Aorelria.pdf';
+  link.download = 'CV-Aorelria.pdf';
+  link.click();
+}
